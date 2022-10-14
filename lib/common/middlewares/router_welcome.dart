@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ducafecat_news_getx/common/routers/routes.dart';
-import 'package:flutter_ducafecat_news_getx/common/store/store.dart';
+import 'package:colombia/common/routers/routes.dart';
+import 'package:colombia/common/store/store.dart';
 
 import 'package:get/get.dart';
 
@@ -19,7 +19,7 @@ class RouteWelcomeMiddleware extends GetMiddleware {
     } else if (UserStore.to.isLogin == true) {
       return RouteSettings(name: AppRoutes.Application);
     } else {
-      return RouteSettings(name: AppRoutes.SIGN_IN);
+      return RouteSettings(name: AppRoutes.Application);
     }
   }
 }

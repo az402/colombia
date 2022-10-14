@@ -1,5 +1,5 @@
-import 'package:flutter_ducafecat_news_getx/common/entities/entities.dart';
-import 'package:flutter_ducafecat_news_getx/common/utils/utils.dart';
+import 'package:colombia/common/entities/entities.dart';
+import 'package:colombia/common/utils/utils.dart';
 
 /// 用户
 class UserAPI {
@@ -11,6 +11,7 @@ class UserAPI {
       '/user/login',
       data: params?.toJson(),
     );
+    print(response);
     return UserLoginResponseEntity.fromJson(response);
   }
 

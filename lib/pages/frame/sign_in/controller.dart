@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ducafecat_news_getx/common/apis/apis.dart';
-import 'package:flutter_ducafecat_news_getx/common/entities/entities.dart';
-import 'package:flutter_ducafecat_news_getx/common/routers/routes.dart';
-import 'package:flutter_ducafecat_news_getx/common/store/store.dart';
-import 'package:flutter_ducafecat_news_getx/common/utils/utils.dart';
-import 'package:flutter_ducafecat_news_getx/common/widgets/widgets.dart';
+import 'package:colombia/common/apis/apis.dart';
+import 'package:colombia/common/entities/entities.dart';
+import 'package:colombia/common/routers/routes.dart';
+import 'package:colombia/common/store/store.dart';
+import 'package:colombia/common/utils/utils.dart';
+import 'package:colombia/common/widgets/widgets.dart';
 import 'package:get/get.dart';
 
 import 'index.dart';

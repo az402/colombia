@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ducafecat_news_getx/common/entities/entities.dart';
-import 'package:flutter_ducafecat_news_getx/common/utils/utils.dart';
-import 'package:flutter_ducafecat_news_getx/common/values/values.dart';
-import 'package:flutter_ducafecat_news_getx/common/widgets/widgets.dart';
+import 'package:colombia/common/entities/entities.dart';
+import 'package:colombia/common/utils/utils.dart';
+import 'package:colombia/common/values/values.dart';
+import 'package:colombia/common/widgets/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 Widget newsListItem(NewsItem item) {
@@ -14,22 +14,22 @@ Widget newsListItem(NewsItem item) {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         // 图
-        InkWell(
-          onTap: () {
-            // ExtendedNavigator.rootNavigator.pushNamed(
-            //   Routes.detailsPageRoute,
-            //   arguments: DetailsPageArguments(item: item),
-            // );
-          },
-          child: netImageCached(
-            item.thumbnail ?? "",
-            width: 121.w,
-            height: 121.w,
-          ),
-        ),
+        // InkWell(
+        //   onTap: () {
+        //     // ExtendedNavigator.rootNavigator.pushNamed(
+        //     //   Routes.detailsPageRoute,
+        //     //   arguments: DetailsPageArguments(item: item),
+        //     // );
+        //   },
+        //   child: netImageCached(
+        //     item.thumbnail ?? "",
+        //     width: 121.w,
+        //     height: 121.w,
+        //   ),
+        // ),
         // 右侧
         SizedBox(
-          width: 194.w,
+          width: 335.w,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[

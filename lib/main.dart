@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ducafecat_news_getx/common/langs/translation_service.dart';
-import 'package:flutter_ducafecat_news_getx/common/routers/pages.dart';
-import 'package:flutter_ducafecat_news_getx/common/store/store.dart';
-import 'package:flutter_ducafecat_news_getx/common/style/style.dart';
-import 'package:flutter_ducafecat_news_getx/common/utils/utils.dart';
-import 'package:flutter_ducafecat_news_getx/global.dart';
+import 'package:colombia/common/langs/translation_service.dart';
+import 'package:colombia/common/routers/pages.dart';
+import 'package:colombia/common/store/store.dart';
+import 'package:colombia/common/style/style.dart';
+import 'package:colombia/common/utils/utils.dart';
+import 'package:colombia/global.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
       designSize: Size(375, 812),
-      builder: () => RefreshConfiguration(
+      builder: (BuildContext context, Widget? widget) => RefreshConfiguration(
         headerBuilder: () => ClassicHeader(),
         footerBuilder: () => ClassicFooter(),
         hideFooterWhenNotFull: true,

@@ -1,6 +1,6 @@
-import 'package:flutter_ducafecat_news_getx/common/entities/entities.dart';
-import 'package:flutter_ducafecat_news_getx/common/utils/utils.dart';
-import 'package:flutter_ducafecat_news_getx/common/values/values.dart';
+import 'package:colombia/common/entities/entities.dart';
+import 'package:colombia/common/utils/utils.dart';
+import 'package:colombia/common/values/values.dart';
 
 /// 新闻
 class NewsAPI {
@@ -18,6 +18,7 @@ class NewsAPI {
       cacheDisk: cacheDisk,
       cacheKey: STORAGE_INDEX_NEWS_CACHE_KEY,
     );
+    print(response);
     return NewsPageListResponseEntity.fromJson(response);
   }
 
@@ -33,6 +34,7 @@ class NewsAPI {
       refresh: refresh,
       cacheDisk: cacheDisk,
     );
+    print(response);
     return NewsItem.fromJson(response);
   }
 

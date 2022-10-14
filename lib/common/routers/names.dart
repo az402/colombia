@@ -3,6 +3,7 @@ class AppRoutes {
   static const SIGN_IN = '/sign_in';
   static const SIGN_UP = '/sign_up';
   static const NotFound = '/not_found';
+  static const ddd = '/ddd';
 
   static const Application = '/application';
   static const Category = '/category';

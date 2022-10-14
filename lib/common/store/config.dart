@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ducafecat_news_getx/common/services/services.dart';
-import 'package:flutter_ducafecat_news_getx/common/values/values.dart';
+import 'package:colombia/common/services/services.dart';
+import 'package:colombia/common/values/values.dart';
 import 'package:get/get.dart';
 import 'package:package_info/package_info.dart';
 

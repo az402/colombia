@@ -27,3 +27,7 @@
         name: RouteNames.main,
         page: () => const MainPage(),
       ),
+      GetPage(
+        name: RouteNames.test,
+        page: () => const TestPage(),
+      ),

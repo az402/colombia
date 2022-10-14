@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ducafecat_news_getx/common/middlewares/middlewares.dart';
-import 'package:flutter_ducafecat_news_getx/pages/application/index.dart';
-import 'package:flutter_ducafecat_news_getx/pages/category/index.dart';
-import 'package:flutter_ducafecat_news_getx/pages/frame/sign_in/index.dart';
-import 'package:flutter_ducafecat_news_getx/pages/frame/sign_up/index.dart';
-import 'package:flutter_ducafecat_news_getx/pages/frame/welcome/index.dart';
+import 'package:colombia/common/middlewares/middlewares.dart';
+import 'package:colombia/pages/application/index.dart';
+import 'package:colombia/pages/category/index.dart';
+import 'package:colombia/pages/frame/sign_in/index.dart';
+import 'package:colombia/pages/frame/sign_up/index.dart';
+import 'package:colombia/pages/frame/welcome/index.dart';
+import 'package:colombia/pages/ddd/index.dart';
 import 'package:get/get.dart';
 
 import 'routes.dart';
@@ -50,6 +51,13 @@ class AppPages {
       name: AppRoutes.Category,
       page: () => CategoryPage(),
       binding: CategoryBinding(),
+    ),
+
+    // 免登陆
+    GetPage(
+      name: AppRoutes.ddd,
+      page: () => DddPage(),
+      binding: DddBinding(),
     ),
   ];
 

@@ -5,3 +5,4 @@ static const frameSignIn = '/frame_sign_in';
 static const frameSignUp = '/frame_sign_up';
 static const frameWelcome = '/frame_welcome';
 static const main = '/main';
+static const test = '/test';
